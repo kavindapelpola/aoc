@@ -17,7 +17,7 @@ fn main() {
         .lines()
         .map(|line| {
             let r = line.split("-").collect::<Vec<&str>>();
-            return ((r[0].parse::<u64>().unwrap(), r[1].parse::<u64>().unwrap()));
+            return (r[0].parse::<u64>().unwrap(), r[1].parse::<u64>().unwrap());
         })
         .collect::<Vec<Range>>();
     let ingredients = parts[1]
