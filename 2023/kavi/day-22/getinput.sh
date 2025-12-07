@@ -1,0 +1,1 @@
+wget --header "Cookie: session=53616c7465645f5fc607dff5e8c9893bc49a02c75fe083c509d282861db1c5f2932319c4f9b557553cdf0b57ac419dbce4bde37a7aa938e620cc28bd261bf7b8" https://adventofcode.com/2023/day/$1/input -O input.txt
